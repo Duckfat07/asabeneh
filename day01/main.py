@@ -21,3 +21,25 @@ print(type(True)) # boolean
 print(type([10,11,12,13,14])) # list, uses square brackets!
 print(type({'color':'blue', 'size':'large'})) # dictionary, curly brackets means dictionary!! 
 print(type((1,2,3,4))) # tuple, uses parentheses
+
+# operations within python review 
+print(2*5) # should print 10
+print(2+3) # should print 5
+print(10-6) # should print 4, subtraction
+print(11/2) # should print 5.5, right?
+print(10//3) # should print 3, floor division is two slashes, divides two numbers and rounds the result down. 10 divided by 3 is 3.333, but that result gets rounded down to the whole number 3
+print(62//9) # should print 6, because it rounds down, not up. Even though the output is actually closer to 7
+print(25%6) # modulus - returns the remainder of the division operation
+print(3**3) # exponents, 3 to the power of 3 is 27 
+
+# data types
+print(type(2.001)) # float, decimal
+print(type("Hey-Ho world")) # string
+print(type(450)) # int, integer
+print(type(3-1j)) # complex, j is imaginary square root -1, j must always have a coefficient before it 
+print(type(["banana", "pear", "tomato"])) # list, uses SQUARE brackets
+print(type(True)) # Boolean
+print(type(False)) # boolean, type() only takes 1 or 3 arguments. 
+print(type({'food':'Kimchi', 'appliance':'oven', 'show':'The Wire'})) # dictionary, uses curly brackets
+print(type(('blue','black', 3.14, 'gray', 'yellow', 1))) # tuple, utilizes rounded brackets
+
