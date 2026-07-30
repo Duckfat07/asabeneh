@@ -20,7 +20,8 @@ print('length of first name:', len(first_name))
 name_of_user = input('What is your name?')
 age_of_user = input('How old are you?')
 
-print(name_of_user, age_of_user)
+print(name_of_user)
+print(age_of_user)
 
 year = 2026
 print(type(year))
@@ -33,3 +34,8 @@ print(years_till_2028)
 animal, number_of_legs, is_farm = 'pig', 4, True
 print(animal, number_of_legs, is_farm)
 
+nickname = 'EJK'
+net_worth = 500000000
+is_married = False
+
+# area of a circle 
