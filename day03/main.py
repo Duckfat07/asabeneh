@@ -39,3 +39,58 @@ net_worth = 500000000
 is_married = False
 
 # area of a circle 
+# defining the radius
+radius = 25 
+area_of_circle = 3.14 * radius ** 2
+print('Area of a circle:', area_of_circle)
+
+# area of a rectangle
+length = 20
+width = 10
+rect_area = length * width
+print('Area of a rectangle:', rect_area)
+
+# Calculating the wieght of an object
+mass = 5
+gravity = 9.81 
+weight = mass * gravity
+print('Weight:', weight, 'N')
+
+# Calculating the density of a liquid 
+mass = 60
+volume = 0.05 # in cubic meter 
+density = mass/volume
+print(density, 'kg/m^3')
+
+# booleans
+print('A' in 'Asabeneh') # True, A is found in the string 
+print('B' in 'Asabeneh') # false there is no uppercase B
+print(5 > 3) # True 
+print(77 < 3) # false
+print(not True) # False 
+
+age = 18
+int_age = int(18)
+print(type(age))
+print(int_age)
+
+height = 5.10
+real_height = float(height)
+print(type(height))
+print(real_height)
+
+complex_num = 5 + 1j
+print(type(complex_num))
+
+# area of triangle exercise 
+base = input('Enter the base of the triangle:')
+height = input('Enter the height of the triangle:')
+area = 1/2 * base * height
+print(area)
+
+# perimeter of a triangle
+a = input('side 1 of triangle:')
+b = input('side 2 of triangle:')
+c = input('side 3 of triangle:')
+perimeter = a+b+c
+print(a + b + c)
