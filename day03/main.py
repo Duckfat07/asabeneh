@@ -83,14 +83,16 @@ complex_num = 5 + 1j
 print(type(complex_num))
 
 # area of triangle exercise 
-base = input('Enter the base of the triangle:')
-height = input('Enter the height of the triangle:')
+base = int(input('Enter the base of the triangle:')) # input always returns a string
+height = int(input('Enter the height of the triangle:')) # input alwas returns a string, so it is necessary to convert the input into an integer
 area = 1/2 * base * height
-print(area)
+print("This is the area of the triangle:", area)
 
 # perimeter of a triangle
-a = input('side 1 of triangle:')
-b = input('side 2 of triangle:')
-c = input('side 3 of triangle:')
+a = int(input('side 1 of triangle:'))
+b = int(input('side 2 of triangle:'))
+c = int(input('side 3 of triangle:'))
 perimeter = a+b+c
 print(a + b + c)
+
+
