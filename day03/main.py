@@ -95,4 +95,12 @@ c = int(input('side 3 of triangle:'))
 perimeter = a+b+c
 print(a + b + c)
 
+# rectangle exercises
+length = int(input('what is the length of the rectangle?:'))
+width = int(input('what is the width of the rectangle?:'))
+area = length * width 
+perimeter = 2*length + 2*width
 
+radius = int(input('what is the radius of the circle?:'))
+pi = 3.14
+area = pi*radius**2 
