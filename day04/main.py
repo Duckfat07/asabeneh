@@ -81,3 +81,34 @@ print('{} - {} = {}'.format(a, b, a-b))
 print('{} * {} = {}'.format(a, b, a*b))
 
 
+# String interpolation/f-strings
+c = 6
+d = 7
+print(f'{c} + {d} = {c+d}') # output is 6 + 7 = 13
+print(f'{c} - {d} = {c-d}') # 6 - 7 = -1
+print(f'{c} * {d} = {c*d}') 
+print(f'{c} / {d} = {c /d:.2f}') # :.2f is a format specifier, show 2 digits after decimal point, format the number as a floating-point number
+print(f'{c} ** {d} = {c**d}') # 6 ** 7 = 279936
+print(f'{c} + {d} - {c*d} = {c+d-c*d}') 
+
+# python strings as sequences of characters 
+language = 'Python'
+a, b, c, d, e, f = language
+print(a) # P
+print(b) # y
+print(c) # t
+print(d) # h 
+print(e) # o
+print(f) # n
+
+# Accessing characters in strings by index, indexing always starts at 0
+language = 'python'
+letter_1 = language[0] # p 
+letter_2 = language[1] # y
+letter_3 = language[2]
+letter_4 = language[3]
+letter_5 = language[4]
+letter_6 = language[5]
+
+print(letter_1 + letter_2 + letter_3 + letter_4 + letter_5 + letter_6)
+
