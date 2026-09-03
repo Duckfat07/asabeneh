@@ -112,3 +112,23 @@ letter_6 = language[5]
 
 print(letter_1 + letter_2 + letter_3 + letter_4 + letter_5 + letter_6)
 
+lang = 'Python'
+first_letter = lang[0]
+print(first_letter)
+last_index = len(lang) - 1
+last_letter = lang[last_index]
+print(last_letter)
+
+# negative indexing
+last_letter = lang[-1]
+print(last_letter)
+second_last = lang[-2]
+print(second_last)
+
+# Slicing python strings
+first_three = lang[0:3]
+print(first_three) # Pyt
+all = lang[0:] 
+print(all)
+last_three = lang[-3:]
+print(last_three) # hon
