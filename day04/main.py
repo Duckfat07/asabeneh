@@ -132,3 +132,25 @@ all = lang[0:]
 print(all)
 last_three = lang[-3:]
 print(last_three) # hon
+
+# Reversing a string
+greeting = 'Hi World, what\'s up'
+print(greeting[::-1]) # string should print in reverse, omitted start & stop, negative step of -1
+# ::-1, ::-1, ::-1
+
+# skipping characters while slicing with indexing
+language = 'Python'
+pto = language[0:6:2] # start 0 begin slicing at index 0, stop before index 6, step 2 move forward 2 indices at a time
+print(pto) 
+
+# string methods
+# .capitalize(): converts the first character of a string to a capital letter
+string = "bison"
+print(string.capitalize()) # Bison
+# .count() returns occurences of a substring within a string
+sentence = "the cat sat on the mat. it was fat."
+print(sentence.count('t')) # 7
+
+
+
+
