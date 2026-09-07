@@ -151,6 +151,14 @@ print(string.capitalize()) # Bison
 sentence = "the cat sat on the mat. it was fat."
 print(sentence.count('t')) # 7
 
+# .endswith() checks if a string ends with a specified ending
+word = "python"
+print(word.endswith('on')) # true
+print(word.endswith('tion')) # false
+
+# .expandtabs() replaces the tab character with spaces, default tab size is 8. It takes tab size argument
+
+
 
 
 
