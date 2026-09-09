@@ -157,6 +157,16 @@ print(word.endswith('on')) # true
 print(word.endswith('tion')) # false
 
 # .expandtabs() replaces the tab character with spaces, default tab size is 8. It takes tab size argument
+challenge = 'thirty\tdays\of\tpython'
+print(challenge.expandtabs())
+print(challenge.expandtabs(10)) 
+print(challenge.expandtabs(20))
+print(challenge.expandtabs(5))
+
+# .find()
+sentence = 'thirty days of python'
+print(sentence.find('th'))
+print(sentence.find('n'))
 
 
 
