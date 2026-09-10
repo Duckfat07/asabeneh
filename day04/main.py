@@ -163,12 +163,16 @@ print(challenge.expandtabs(10))
 print(challenge.expandtabs(20))
 print(challenge.expandtabs(5))
 
-# .find()
+# .find() returns the index of the first occurence of a substring, if not returns -1
 sentence = 'thirty days of python'
-print(sentence.find('th'))
-print(sentence.find('n'))
+print(sentence.find('y')) # 5
+print(sentence.find('n')) # 20
 
+#.rfind() returns the index of the last occurence of a substring, if not found returns -1
+print(sentence.rfind('y')) # 16
+print(sentence.rfind('s')) # 10 
 
+# format()
 
 
 
