@@ -206,3 +206,17 @@ print(object.isalpha())
 text1 = 'bomboclat soccer ball'
 print(text1.isalpha())
 
+# isdecimal() checks if all the characters in a string are decimal (0-9)
+numbers = '123456'
+print(numbers.isdecimal()) # should return true
+num = '1 2'
+print(num.isdecimal()) # false, spaces are characters
+
+# isdigit() checks if all characters in a string are numbers, more broad than isdecimal()
+text = '\u00B2' # the backslash is important
+print(text.isdigit()) # True, 
+text = '545434'
+print(text.isdigit()) #true
+
+num = '123' # 123 without quotes wont work; these are all string methods, won't work for integers
+print(num.isdigit())
