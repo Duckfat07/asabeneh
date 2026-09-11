@@ -167,12 +167,42 @@ print(challenge.expandtabs(5))
 sentence = 'thirty days of python'
 print(sentence.find('y')) # 5
 print(sentence.find('n')) # 20
-
 #.rfind() returns the index of the last occurence of a substring, if not found returns -1
 print(sentence.rfind('y')) # 16
 print(sentence.rfind('s')) # 10 
 
-# format()
+# format(): formats string into a nicer output
+name = 'ethan'
+age = 20
+job = 'entrepreneur'
+country = 'America'
+sentences = 'I am {}. I am {} years old. I aspire to be an {}. I live in {}.'.format(name, age, job, country)
+print(sentences)
 
+radius = 10
+pi = 3.14
+area = pi*radius**2
+print('The area of a circle is {} with radius {}'.format(area, radius))
 
+# index(): returns the lowest index of a substring
+# syntax: string.index(substring, start, end)
+person = 'Abraham Lincoln'
+substring = 'ham'
+print(person.index(substring))
+# rindex(): returns the highes index of a substring
+print(person.rindex(substring, 3)) # will return a valueError if substring is not found
+
+# isalnum() checks alphanumeric character checks if all the characters in a string are alphanumeric (letters and numbers)
+phrase = '8675-309Jenny'
+print(phrase.isalnum()) # false
+line = 'he he'
+print(line.isalnum()) # false, because of the space
+text = 'powerade2224'
+print(text.isalnum()) # true
+
+# isalpha() checks if the string elements are alphabet characters
+object = 'boomerangfrisbee'
+print(object.isalpha())
+text1 = 'bomboclat soccer ball'
+print(text1.isalpha())
 
