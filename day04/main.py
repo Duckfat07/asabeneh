@@ -220,3 +220,18 @@ print(text.isdigit()) #true
 
 num = '123' # 123 without quotes wont work; these are all string methods, won't work for integers
 print(num.isdigit())
+
+# isnumeric() checks if all characters are numbers or number-related (accepts more symbols like 1/2)
+num = '10'
+print(num.isnumeric()) # True
+fraction = '\u00B2'
+print(fraction.isnumeric()) # true
+
+# isidentifier() checks if a string is a valid variable name
+phrase = 'Michael Jordan'
+print(phrase.isidentifier()) # false 
+
+# islower() checks if all the characters in a string are lowercase
+sentence = 'i like to eat burgers'
+print(sentence.islower()) # true
+
