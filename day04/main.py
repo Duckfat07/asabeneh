@@ -235,3 +235,25 @@ print(phrase.isidentifier()) # false
 sentence = 'i like to eat burgers'
 print(sentence.islower()) # true
 
+# isupper() checks if all the alphabet characters in the string are uppercase
+sentence = 'I like to eat pasta'
+print(sentence.isupper()) # false
+phrase = 'I LIKE TO EAT PASTA'
+print(phrase.isupper()) #true
+
+# join(): returns a concatenated string, joining two or more text strings end-to-end to create a single new string
+soccer_players = ['Messi', 'Ronaldo', 'Sonny', 'Salah']
+result = ' '.join(soccer_players)
+print(result) 
+output = ' > '.join(soccer_players)
+
+# strip() removes all given characters starting from the beginning and end of the string
+sentence = 'Kanye West more like Kanye East'
+print(sentence.strip('stKa')) # only takes one argument
+
+# replace() replaces substring with a given string
+sentence = 'I love hiking'
+revision = sentence.replace('hiking','cooking')
+print(revision)
+
+
