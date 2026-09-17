@@ -256,4 +256,32 @@ sentence = 'I love hiking'
 revision = sentence.replace('hiking','cooking')
 print(revision)
 
+# split() splits the string, using given string or space as a separator
+sentence = 'Cause Girls Like You Run Around With Guys Like Me'
+print(sentence.split())
+text = 'cocoa, mango, oboe, tango'
+print(text.split(', '))
+
+# title() returns a title cased string
+saying = 'to thine own self be true'
+print(saying.title())
+
+# swapcase() converts all uppercase to lowercase and all lowercase letters to uppercase
+building = 'hollenback'
+print(building.swapcase())
+course = 'FRENCH'
+print(course.swapcase())
+
+# startswith() checks if string stars with the specified string
+title = '500 Days of Summer'
+print(title.startswith('500')) # true
+bomba = 500
+print(title.startswith(str(bomba)))# true
+
+
+
+
+
+
+
 
