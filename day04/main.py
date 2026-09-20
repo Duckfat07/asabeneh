@@ -278,10 +278,48 @@ print(title.startswith('500')) # true
 bomba = 500
 print(title.startswith(str(bomba)))# true
 
+# String exercises let's fucking go! String methods
+string = ['Thirty', 'Days', 'of','Python']
+result = ' '.join(string)
+print(result)
 
+company = 'Coding For All'
+print(company)
+print(len(company))
+print(company.upper()) # .upper() converts all letters to uppercase
+print(company.lower()) # .lower() method converts all characters to lowercase
 
+string = 'coding for all'
+formatted_string = string.capitalize()
+title_string = string.title()
+string1 = 'cODING fOR aLL'
+swapped = string1.swapcase()
+print(formatted_string)
+print(title_string)
+print(swapped)
 
+text = 'Coding for All'
+first_word = text.split()[0]
+print(first_word) # to keep the first word
 
+last_word = text.split()[-1]
+print(last_word) # to keep only the last word
 
+no_first_word = text.split(' ', 1)[1] 
+print(no_first_word) 
 
+word2 = text.split()[1]
+word2_1 = word2.capitalize()
+word3 = text.split()[2]
+two_last_words = str(word2_1 + ' ' + word3)
+print(two_last_words)
 
+string1 = '30DaysOfPython'
+string2 = 'thirty_days_of_python'
+print(string1.isidentifier())
+print(string2.isidentifier())
+
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+word = 'because'
+print(sentence.index(word))
+print(sentence.rindex(word))
