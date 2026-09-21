@@ -323,3 +323,20 @@ sentence = 'You cannot end a sentence with because because because is a conjunct
 word = 'because'
 print(sentence.index(word))
 print(sentence.rindex(word))
+
+phrase = 'Coding for All'
+substring = 'Coding'
+print('Does \'Coding for All \' start with a substring \'Coding\'?')
+x = phrase.startswith(substring)
+if x == True:
+    print('Yes, it does')
+else:
+    print('no, it does not')
+
+print('Does \'Coding for All \' end with the substring \'Coding\'?')
+substring2 = substring.lower()
+y = phrase.endswith(substring2)
+if y == True:
+    print('the phrase ends with substring2')
+else: 
+    print('the phrase does not end with substring2')
