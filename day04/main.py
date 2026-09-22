@@ -340,3 +340,20 @@ if y == True:
     print('the phrase ends with substring2')
 else: 
     print('the phrase does not end with substring2')
+
+# escape sequences 
+print('Name\tAge\tCountry\tCity\t')
+print('Asabeneh\t250\tFinland\tHelsinki')
+print('I am enjoying this challenge.\nI just wonder what is next.')
+
+# string formatting
+radius = 10
+area = 3.14 * radius ** 2
+print('The area of a circle with a radius {} is {:.2f} meters square'.format(radius, area))
+
+a = 8
+b = 6
+print('{} + {} = {}'.format(a, b, a+b))
+print('{} - {} = {}'.format(a, b, a - b))
+print('{} * {} = {}'.format(a, b, a * b))
+print('{} / {} = {:.2f}'.format(a, b, a / b))
