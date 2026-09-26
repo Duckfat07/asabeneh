@@ -31,3 +31,7 @@ teams = ['Tottenham', 'Man City', 'Everton', 'Liverpool']
 print(teams[0])
 print(teams[1] + ' ' + 'and' + ' ' + teams[2])
 
+last_index = len(teams) - 1
+last_team = teams[last_index] 
+
+# accessing list items using negative indexing 
