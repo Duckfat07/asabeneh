@@ -35,3 +35,31 @@ last_index = len(teams) - 1
 last_team = teams[last_index] 
 
 # accessing list items using negative indexing 
+players = ['Jasper', 'Mario', 'Ethan', 'Ian']
+first_player = players[-4]
+last_player = players[-1]
+second_last = players[-2]
+print(last_player, second_last, first_player)
+
+# unpacking list items
+lst = ['one', 'two', 'three', 'four', 'five', 'six']
+a, b, c, *rest = lst # order matters, lst should be on the right
+print(a)
+print(b)
+print(c)
+print(rest)
+
+first, second, third, *rest, tenth = [1, 2, 4, 5, 6, 7, 8, 9, 10]
+print(first)
+print(second)
+print(third)
+print(rest)
+print(tenth)
+
+countries = ['Korea', 'USA', 'Japan', 'Germany', 'France', 'Canada', 'Albania', 'Bosnia', 'Bulgaria', 'Croatia']
+kor, usa, jpn, ger, fr, can, *balkans = countries 
+print(kor)
+print("the balkans:", balkans)
+print(usa)
+print(fr)
+print(ger)
