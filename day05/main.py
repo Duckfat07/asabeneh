@@ -63,3 +63,23 @@ print("the balkans:", balkans)
 print(usa)
 print(fr)
 print(ger)
+
+# slicing items from a list 
+# positive indexing: we can specify a range of positive indexes by specifying the start, end, and step. the return value will be a new list. 
+cities = ['New York', 'Toronto', 'Philadelphia', 'Boston']
+print(cities)
+all_cities = cities[0:4]
+print(all_cities)
+all_cities = cities[0:]
+print(all_cities)
+first_three = cities[0:3] # this should print the first three
+print(first_three)
+# negative indexing 
+all_cities = cities[-4:]
+print(all_cities)
+middle_two = cities[-3:-1] 
+print(middle_two)
+reverse_cities = cities[::-1]
+print(reverse_cities)
+
+
