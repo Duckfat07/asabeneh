@@ -81,5 +81,32 @@ middle_two = cities[-3:-1]
 print(middle_two)
 reverse_cities = cities[::-1]
 print(reverse_cities)
+last_three = cities[-3:] # this should print Toronto, Philadelphia, and Boston
+print(last_three)
 
+# modifying lists, lists are mutable
+teams = ['Chelsea', 'Tottenham', 'Wolves','Liverpool']
+teams[0] = 'Manchester United'
+print(teams) # ManU should replace Chelsea
+
+teams[1] = 'Hull City'
+print(teams)
+last_index = len(teams) - 1
+teams[last_index] = 'Barcelona'
+
+# checking items in a list, check if it is a member of a list using in operator
+carbs = ['bread', 'oatmeal', 'pasta', 'potatoes']
+does_exist = 'bread' in carbs
+print(does_exist)
+does_exist = 'grits' in carbs
+print(does_exist)
+
+# adding items to a list
+# lst = list()
+# lst.append(item)
+sweets = ['brownies', 'chocolate', 'ice cream', 'sundae']
+sweets.append('cake')
+print(sweets)
+sweets.append('candy')
+print(sweets)
 
